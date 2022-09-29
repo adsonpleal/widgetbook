@@ -35,6 +35,7 @@ AppBuilderFunction get materialAppBuilder =>
         debugShowCheckedModeBanner: false,
         routerDelegate: _router.routerDelegate,
         routeInformationParser: _router.routeInformationParser,
+        routeInformationProvider: _router.routeInformationProvider,
       );
     };
 
